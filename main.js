@@ -1,9 +1,11 @@
+require('node-import');
 var Slack = require('slack-node');
-var API_TOKEN = ""; //xpxp---
-var CHANNEL_ID = ""; //D0---
+
+//API_TOKENとCHANNEL_IDの設定ファイル
+imports('./config.js');
 
 // 消したい直近のメッセージ数
-var AMOUNT = 10;
+var AMOUNT = 1;
 
 slack = new Slack(API_TOKEN);
 var ts = [];

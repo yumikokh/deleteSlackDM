@@ -13,7 +13,7 @@ slack.api("im.history", {
   channel: CHANNEL_ID,
   count: AMOUNT
 }, function(err, response) {
-	console.log("取得",response.messages);
+  console.log("取得",response.messages);
   for(var i=0; i < response.messages.length; i++) {
     ts[i] = response.messages[i].ts;
 

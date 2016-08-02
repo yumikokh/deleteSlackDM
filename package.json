@@ -1,0 +1,17 @@
+{
+  "name": "getfreedom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "slack-node": "^0.2.0"
+  },
+  "devDependencies": {
+    "slack-node": "^0.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
